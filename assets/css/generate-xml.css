@@ -1,0 +1,66 @@
+#e-kat-woo .group {
+    display: flex;
+    align-items: flex-start;
+    margin: 20px -10px 0;
+}
+
+#e-kat-woo .group > .item {
+    width: 50%;
+    padding: 10px 20px;
+    background: #fff;
+    border-radius: 3px;
+    margin: 0 10px;
+}
+
+#e-kat-woo .group > .item table {
+    margin: 0;
+}
+
+#e-kat-woo .form-table th,
+#e-kat-woo .form-table td {
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+#e-kat-woo .form-table th {
+    width: 140px;
+}
+
+#e-kat-woo .form-table input[type="text"],
+#e-kat-woo .form-table select {
+    width: 100%;
+}
+
+#e-kat-woo .form-table .desc {
+    font-style: italic;
+    display: block;
+    margin-top: 5px;
+    opacity: .7;
+}
+
+#e-kat-woo .form-table a:hover {
+    text-decoration: none;
+}
+
+@media all and (max-width: 960px) {
+    #e-kat-woo .group {
+        display: block;
+        margin: 15px 0 0;
+    }
+
+    #e-kat-woo .group > .item {
+        width: auto;
+        margin: 0;
+        padding: 10px;
+    }
+
+    #e-kat-woo .group > .item:not(:last-child) {
+        margin-bottom: 20px;
+    }
+
+    #e-kat-woo .form-table th,
+    #e-kat-woo .form-table td {
+        padding-top: 6px;
+        padding-bottom: 6px;
+    }
+}
